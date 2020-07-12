@@ -50,5 +50,4 @@ buildPipelineView('Devops_Task6') {
     alwaysAllowManualTrigger()
     showPipelineParameters()
     refreshFrequency(60)
-    }
 }
