@@ -40,3 +40,15 @@ job("JOB3_Testing_and_Mailing")
         mailer('spal3066@gmail.com', false, false)
     }
 }
+
+buildPipelineView('Devops_Task6') {
+    filterBuildQueue()
+    filterExecutors()
+    title('Devops_Task6_Build_PIPELINE')
+    displayedBuilds(3)
+    selectedJob("JOB1_GITHUB")
+    alwaysAllowManualTrigger()
+    showPipelineParameters()
+    refreshFrequency(60)
+    }
+}
