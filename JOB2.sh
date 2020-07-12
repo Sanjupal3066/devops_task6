@@ -27,3 +27,4 @@ else
 	echo "No Server Found"
 	exit 1
 fi
+sudo kubectl get all
